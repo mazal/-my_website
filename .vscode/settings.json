@@ -1,10 +1,9 @@
-{
-    "files.exclude": {
-        "**/.git": true,
-        "**/*.log": true,
-        "**/.*": true,
-        "**/*.csproj": true,
-        "**/bin": true,
-        "**/obj": true
-    }
-}
+	// Configure [glob patterns](https://aka.ms/vscode-glob-patterns) for excluding files and folders. For example, the File Explorer decides which files and folders to show or hide based on this setting. Refer to the `search.exclude#` setting to define search-specific excludes. Refer to the `#explorer.excludeGitIgnore` setting for ignoring files based on your `.gitignore`.
+	"files.exclude": {
+		"**/.git": false,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true
+	},
